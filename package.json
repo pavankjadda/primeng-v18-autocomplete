@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "ng": "ng",
-    "start": "ng serve --watch --hmr --ssl=true --ssl-cert ~/localhost.pem --ssl-key ~/localhost-key.pem",
+    "start": "ng serve --watch --hmr",
+    "start:https": "ng serve --watch --hmr --ssl=true --ssl-cert ~/localhost.pem --ssl-key ~/localhost-key.pem",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
